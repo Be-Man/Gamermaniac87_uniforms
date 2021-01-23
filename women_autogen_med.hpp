@@ -1,14 +1,13 @@
-class B_Soldier_base_F;
-class max_female_b;
+class B_soldier_F;
 
-class O_FACTIONMEDICgamermaniac_Medical_Woman_Uniform_01: B_Soldier_base_F {
+class O_FACTIONMEDICgamermaniac_Medical_Woman_Uniform_01: B_soldier_F {
 	author = "Kane Messias";
 	scope = 1;
 	displayName = "Medical Woman Uniform";
 	model="\EF\data\FEM3A_EMS.p3d";
-	hiddenSelections[]={};
-	hiddenSelectionsTextures[]={};
-	hiddenSelectionsMaterials[]={};
+	hiddenSelections[] = {};
+	hiddenSelectionsTextures[] = {};
+	hiddenSelectionsMaterials[] = {};
 	
 	side = 0;
 	faction = "FACTION_MEDIC_gamermaniac";
@@ -21,8 +20,8 @@ class O_FACTIONMEDICgamermaniac_Medical_Woman_Uniform_01: B_Soldier_base_F {
 	magazines[] = {};
 	respawnMagazines[] = {};
 
-	linkedItems[] = {"EF_BLT_FEMS","ItemMap","ItemGPS","The_Programmer_Iphone","ItemCompass","ItemWatch"};
-	respawnlinkedItems[] = {"EF_BLT_FEMS","ItemMap","ItemGPS","The_Programmer_Iphone","ItemCompass","ItemWatch"};
+	linkedItems[] = {"EF_BLT_MEMS","ItemMap","ItemGPS","The_Programmer_Iphone","ItemCompass","ItemWatch"};
+	respawnlinkedItems[] = {"EF_BLT_MEMS","ItemMap","ItemGPS","The_Programmer_Iphone","ItemCompass","ItemWatch"};
 
 	nakedUniform="max_femaleBasicBody";
 };
