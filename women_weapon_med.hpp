@@ -4,7 +4,7 @@ class Uniform_Base: ItemCore {};
 
 class U_FACTIONMEDIC_Medic_Uniform_women_01: Uniform_Base {
 	author = "Kane Messias";
-	scope=2;
+	scope = 2;
 	displayName="Medic Women Uniform";
 	picture="\Gamermaniac87_uniforms\textures\Gamermaniac87.paa";
 	model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
