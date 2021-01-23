@@ -67,7 +67,6 @@ class CfgPatches {
             "ace_refuel",
             "cba_xeh",
             "Max_WAW"
-            "EF"
         };
     };
     class FACTION_ADAC_gamermaniac {
