@@ -11,7 +11,7 @@ class B_FACTIONPOLICEgamermaniac_Police_Women_Uniform_LvL1_01 : B_soldier_F {
 	};
 	hiddenSelectionsTextures[]={
 		"\Gamermaniac87_uniforms\textures\Skins\police_uniform_woman_pants.paa",
-		"\Gamermaniac87_uniforms\textures\Skins\police_uniform_woman.paa"
+		"\Gamermaniac87_uniforms\textures\Skins\police_uniform_woman_recruit.paa"
 	};    //Uniform textures
 	hiddenSelectionsMaterials[]={};
 	
@@ -43,7 +43,7 @@ class B_FACTIONPOLICEgamermaniac_Police_Women_Uniform_LvL2_01 : B_soldier_F {
 	};
 	hiddenSelectionsTextures[]={
 		"\Gamermaniac87_uniforms\textures\Skins\police_uniform_woman_pants.paa",
-		"\Gamermaniac87_uniforms\textures\Skins\wcpd_officer.paa"
+		"\Gamermaniac87_uniforms\textures\Skins\police_uniform_woman_officer.paa"
 	};    //Uniform textures
 	hiddenSelectionsMaterials[]={};
 	
@@ -75,7 +75,7 @@ class B_FACTIONPOLICEgamermaniac_Police_Women_Uniform_LvL3_01 : B_soldier_F {
 	};
 	hiddenSelectionsTextures[]={
 		"\Gamermaniac87_uniforms\textures\Skins\police_uniform_woman_pants.paa",
-		"\Gamermaniac87_uniforms\textures\Skins\wcpd_corporal.paa"
+		"\Gamermaniac87_uniforms\textures\Skins\police_uniform_woman_corporal.paa"
 	};    //Uniform textures
 	hiddenSelectionsMaterials[]={};
 	
@@ -107,7 +107,7 @@ class B_FACTIONPOLICEgamermaniac_Police_Women_Uniform_LvL4_01 : B_soldier_F {
 	};
 	hiddenSelectionsTextures[]={
 		"\Gamermaniac87_uniforms\textures\Skins\police_uniform_woman_pants.paa",
-		"\Gamermaniac87_uniforms\textures\Skins\wcpd_sergeant.paa"
+		"\Gamermaniac87_uniforms\textures\Skins\police_uniform_woman_sergeant.paa"
 	};    //Uniform textures
 	hiddenSelectionsMaterials[]={};
 	
@@ -139,7 +139,7 @@ class B_FACTIONPOLICEgamermaniac_Police_Women_Uniform_LvL5_01 : B_soldier_F {
 	};
 	hiddenSelectionsTextures[]={
 		"\Gamermaniac87_uniforms\textures\Skins\police_uniform_woman_pants.paa",
-		"\Gamermaniac87_uniforms\textures\Skins\wcpd_deputy_chief.paa"
+		"\Gamermaniac87_uniforms\textures\Skins\police_uniform_woman_deputy_chief.paa"
 	};    //Uniform textures
 	hiddenSelectionsMaterials[]={};
 	
@@ -171,7 +171,7 @@ class B_FACTIONPOLICEgamermaniac_Police_Women_Uniform_LvL6_01 : B_soldier_F {
 	};
 	hiddenSelectionsTextures[]={
 		"\Gamermaniac87_uniforms\textures\Skins\police_uniform_woman_pants.paa",
-		"\Gamermaniac87_uniforms\textures\Skins\wcpd_chief_of_department.paa"
+		"\Gamermaniac87_uniforms\textures\Skins\police_uniform_woman_chief_of_department.paa"
 	};    //Uniform textures
 	hiddenSelectionsMaterials[]={};
 	
