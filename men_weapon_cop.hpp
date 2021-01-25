@@ -9,7 +9,7 @@ class U_FACTIONPOLICE_Police_Uniform_LvL1_men_01: Uniform_Base {
 	picture="\Gamermaniac87_uniforms\textures\Gamermaniac87.paa";
 	model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 	hiddenSelections[] = {"camo"};
-	hiddenSelectionsTextures[] = {"\Gamermaniac87_uniforms\textures\Skins\wcpd_recruit.paa"};
+	hiddenSelectionsTextures[] = {"\Gamermaniac87_uniforms\textures\Skins\police_uniform_men_recruit.paa"};
 	class Wounds {
 		tex[]={};
 		mat[]={};
@@ -29,7 +29,7 @@ class U_FACTIONPOLICE_Police_Uniform_LvL2_men_01: Uniform_Base {
 	picture="\Gamermaniac87_uniforms\textures\Gamermaniac87.paa";
 	model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 	hiddenSelections[] = {"camo"};
-	hiddenSelectionsTextures[] = {"\Gamermaniac87_uniforms\textures\Skins\wcpd_officer.paa"};
+	hiddenSelectionsTextures[] = {"\Gamermaniac87_uniforms\textures\Skins\police_uniform_men_officer.paa"};
 	class Wounds {
 		tex[]={};
 		mat[]={};
@@ -49,7 +49,7 @@ class U_FACTIONPOLICE_Police_Uniform_LvL3_men_01: Uniform_Base {
 	picture="\Gamermaniac87_uniforms\textures\Gamermaniac87.paa";
 	model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 	hiddenSelections[] = {"camo"};
-	hiddenSelectionsTextures[] = {"\Gamermaniac87_uniforms\textures\Skins\wcpd_corporal.paa"};
+	hiddenSelectionsTextures[] = {"\Gamermaniac87_uniforms\textures\Skins\police_uniform_men_corporal.paa"};
 	class Wounds {
 		tex[]={};
 		mat[]={};
@@ -69,7 +69,7 @@ class U_FACTIONPOLICE_Police_Uniform_LvL4_men_01: Uniform_Base {
 	picture="\Gamermaniac87_uniforms\textures\Gamermaniac87.paa";
 	model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 	hiddenSelections[] = {"camo"};
-	hiddenSelectionsTextures[] = {"\Gamermaniac87_uniforms\textures\Skins\wcpd_sergeant.paa"};
+	hiddenSelectionsTextures[] = {"\Gamermaniac87_uniforms\textures\Skins\police_uniform_men_sergeant.paa"};
 	class Wounds {
 		tex[]={};
 		mat[]={};
@@ -89,7 +89,7 @@ class U_FACTIONPOLICE_Police_Uniform_LvL5_men_01: Uniform_Base {
 	picture="\Gamermaniac87_uniforms\textures\Gamermaniac87.paa";
 	model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 	hiddenSelections[] = {"camo"};
-	hiddenSelectionsTextures[] = {"\Gamermaniac87_uniforms\textures\Skins\wcpd_deputy_chief.paa"};
+	hiddenSelectionsTextures[] = {"\Gamermaniac87_uniforms\textures\Skins\police_uniform_men_deputy_chief.paa"};
 	class Wounds {
 		tex[]={};
 		mat[]={};
@@ -109,7 +109,7 @@ class U_FACTIONPOLICE_Police_Uniform_LvL6_men_01: Uniform_Base {
 	picture="\Gamermaniac87_uniforms\textures\Gamermaniac87.paa";
 	model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 	hiddenSelections[] = {"camo"};
-	hiddenSelectionsTextures[] = {"\Gamermaniac87_uniforms\textures\Skins\wcpd_chief_of_department.paa"};
+	hiddenSelectionsTextures[] = {"\Gamermaniac87_uniforms\textures\Skins\police_uniform_men_chief_of_department.paa"};
 	class Wounds {
 		tex[]={};
 		mat[]={};
