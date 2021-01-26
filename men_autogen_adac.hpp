@@ -1,8 +1,8 @@
-class C_man_w_worker_F;
+class B_soldier_F;
 
-class I_FACTIONADACgamermaniac_ADAC_Uniform_men_01 : C_man_w_worker_F {
+class I_FACTIONADACgamermaniac_ADAC_Uniform_men_01 : B_soldier_F {
 	author = "Kane Messias";
-	scope = 2;
+	scope = 1;
 	displayName = "ADAC Men Uniform";
 	model="\A3\characters_F\common\coveralls";
 	hiddenSelections[] = {"camo"};
