@@ -33,6 +33,13 @@ class CfgFactionClasses {
         icon = "\Gamermaniac87_uniforms\textures\cfgfaction_medical_icon.paa";
         priority = 3;
     };
+    class FACTION_ADMIN_gamermaniac {
+        displayName = "Admin";
+        side = "";
+        flag = "";
+        icon = "";
+        priority = 4;
+    };
 };
 
 class CfgVehicles {
@@ -41,6 +48,7 @@ class CfgVehicles {
 	#include "men_autogen_adac.hpp"
 	#include "men_autogen_cop.hpp"
 	#include "men_autogen_med.hpp"
+	#include "men_autogen_admin.hpp"
 	#include "women_autogen_civ.hpp"
 	#include "women_autogen_adac.hpp"
 	#include "women_autogen_cop.hpp"
@@ -54,6 +62,7 @@ class cfgWeapons {
 	#include "men_weapon_adac.hpp"
 	#include "men_weapon_cop.hpp"
 	#include "men_weapon_med.hpp"
+	#include "men_weapon_admin.hpp"
 	#include "women_weapon_civ.hpp"
 	#include "women_weapon_adac.hpp"
 	#include "women_weapon_cop.hpp"

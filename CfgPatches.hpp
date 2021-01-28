@@ -99,4 +99,33 @@ class CfgPatches {
             "Max_WAW"
         };
     };
+    class FACTION_ADMIN_gamermaniac {
+		version="1.0";
+        author = "Kane Messias";
+        authors[] = {"Kane Messias"};
+        weapons[] = {
+            "I_FACTIONADACgamermaniac_ADMIN_Uniform_men_01",
+        };
+        requiredVersion = "1.62";
+        requiredAddons[] = {
+            "A3_Characters_F",
+            "AL_northface_uniform",
+            "A3_Characters_F_Exp_Civil",
+            "A3_Sounds_F",
+            "A3_Sounds_F_Exp",
+            "ace_gforces",
+            "ace_goggles",
+            "ace_interaction",
+            "ace_movement",
+            "ace_medical_feedback",
+            "A3_Data_F",
+            "A3_Data_F_Curator",
+            "A3_Air_F_Heli",
+            "ace_thermals",
+            "task_force_radio_items",
+            "ace_refuel",
+            "cba_xeh",
+            "Max_WAW"
+        };
+    };
 };
