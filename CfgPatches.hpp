@@ -104,7 +104,7 @@ class CfgPatches {
         author = "Kane Messias";
         authors[] = {"Kane Messias"};
         weapons[] = {
-            "I_FACTIONADACgamermaniac_ADMIN_Uniform_men_01",
+            "I_FACTIONADACgamermaniac_ADMIN_Uniform_01",
         };
         requiredVersion = "1.62";
         requiredAddons[] = {
