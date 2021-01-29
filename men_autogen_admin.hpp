@@ -7,6 +7,7 @@ class I_FACTIONADACgamermaniac_ADMIN_Uniform_01 : O_Protagonist_VR_F {
 	displayName = "ADMIN Uniform";
 	editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\O_Protagonist_VR_F.jpg";
 	model="\A3\Characters_F_Bootcamp\Common\VR_Protagonist_F.p3d";
+	modelSides[] = {3, 2, 1, 0};
 	hiddenSelections[]=
 	{
 		"camo_stripes",
@@ -26,7 +27,6 @@ class I_FACTIONADACgamermaniac_ADMIN_Uniform_01 : O_Protagonist_VR_F {
 		"a3\characters_f_bootcamp\common\data\vrarmoremmisive.rvmat"
 	};
 	
-	side = 2;
 	faction = "FACTION_ADMIN_gamermaniac";
 	
 	backpack = "tf_anprc155_coyote";
