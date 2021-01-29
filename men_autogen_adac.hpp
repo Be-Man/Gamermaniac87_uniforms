@@ -8,6 +8,7 @@ class I_FACTIONADACgamermaniac_ADAC_Uniform_men_01 : B_soldier_F {
 	hiddenSelections[] = {"camo"};
 	HiddenSelectionsTextures[] = {"Gamermaniac87_uniforms\textures\Skins\adac_uniform.paa"};    //Uniform textures
 	hiddenSelectionsMaterials[] = {};
+	modelSides[] = {3, 2, 1};
 	
 	side = 2;
 	faction = "FACTION_ADAC_gamermaniac";
