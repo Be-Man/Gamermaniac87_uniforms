@@ -3,7 +3,7 @@ class O_Protagonist_VR_F;
 
 class I_FACTIONADACgamermaniac_ADMIN_Uniform_01 : O_Protagonist_VR_F {
 	author = "Kane Messias";
-	scope = 1;
+	scope = 2;
 	displayName = "ADMIN Uniform";
 	editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\O_Protagonist_VR_F.jpg";
 	model="\A3\Characters_F_Bootcamp\Common\VR_Protagonist_F.p3d";
@@ -41,6 +41,7 @@ class I_FACTIONADACgamermaniac_ADMIN_Uniform_01 : O_Protagonist_VR_F {
 	respawnlinkedItems[] = {"ADMIN_Vest_01","ItemMap","ItemGPS","The_Programmer_Iphone","ItemCompass","ItemWatch","TAC_PMC_ID_W2"};
 
 	nakedUniform="U_BasicBody";
+	uniformClass="U_FACTIONADMIN_ADMIN_Uniform_01";
 	engineer=1;
 	canDeactivateMines=1;
 	class HitPoints
@@ -48,81 +49,113 @@ class I_FACTIONADACgamermaniac_ADMIN_Uniform_01 : O_Protagonist_VR_F {
 		class HitFace
 		{
 			armor=1000;
+			name="face_hub";
+			passThrough=0.80000001;
 			minimalHit=0.0099999998;
 		};
 		class HitNeck: HitFace
 		{
 			armor=1000;
+			name="neck";
+			passThrough=0.80000001;
 			minimalHit=0.0099999998;
 		};
 		class HitHead: HitNeck
 		{
 			armor=1000;
+			name="head";
+			passThrough=0.80000001;
 			minimalHit=0.0099999998;
 		};
 		class HitPelvis: HitHead
 		{
 			armor=1000;
+			name="pelvis";
+			passThrough=0.80000001;
 			minimalHit=0.0099999998;
 		};
 		class HitAbdomen: HitPelvis
 		{
 			armor=1000;
+			name="spine1";
+			passThrough=0.80000001;
 			minimalHit=0.0099999998;
 		};
 		class HitDiaphragm: HitAbdomen
 		{
 			armor=1000;
+			name="spine2";
+			passThrough=0.80000001;
 			minimalHit=0.0099999998;
 		};
 		class HitChest: HitDiaphragm
 		{
 			armor=1000;
+			name="spine3";
+			passThrough=0.80000001;
 			minimalHit=0.0099999998;
 		};
 		class HitBody: HitChest
 		{
 			armor=1000;
+			name="body";
+			passThrough=0.80000001;
 			minimalHit=0.0099999998;
 		};
 		class hand_l: HitBody
 		{
 			armor=1000;
+			name="hand_l";
+			passThrough=0.80000001;
 			minimalHit=0.0099999998;
 		};
 		class hand_r: hand_l
 		{
 			armor=1000;
+			name="hand_r";
+			passThrough=0.80000001;
 			minimalHit=0.0099999998;
 		};
 		class HitArms: hand_r
 		{
 			armor=1000;
+			name="arms";
+			passThrough=0.80000001;
 			minimalHit=0.0099999998;
 		};
 		class HitHands: HitArms
 		{
 			armor=1000;
+			name="hands";
+			passThrough=0.80000001;
 			minimalHit=0.0099999998;
 		};
 		class leg_l: HitHands
 		{
 			armor=1000;
+			name="leg_l";
+			passThrough=0.80000001;
 			minimalHit=0.0099999998;
 		};
 		class leg_r: leg_l
 		{
 			armor=1000;
+			name="leg_r";
+			passThrough=0.80000001;
 			minimalHit=0.0099999998;
 		};
 		class HitLegs: leg_r
 		{
 			armor=1000;
+			name="legs";
+			passThrough=0.80000001;
 			minimalHit=0.0099999998;
 		};
 		class Incapacitated: HitLegs
 		{
 			armor=1000;
+			name="body";
+			passThrough=0.80000001;
 			minimalHit=0.0099999998;
 		};
 	};

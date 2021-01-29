@@ -1,8 +1,8 @@
-class B_soldier_F;
+class O_G_Soldier_F;
 
-class I_FACTIONADACgamermaniac_ADAC_Uniform_men_01 : B_soldier_F {
+class I_FACTIONADACgamermaniac_ADAC_Uniform_men_01 : O_G_Soldier_F {
 	author = "Kane Messias";
-	scope = 1;
+	scope = 2;
 	displayName = "ADAC Men Uniform";
 	model="\A3\characters_F\common\coveralls";
 	hiddenSelections[] = {"camo"};
@@ -25,4 +25,5 @@ class I_FACTIONADACgamermaniac_ADAC_Uniform_men_01 : B_soldier_F {
 	respawnlinkedItems[] = {"EF_BLT_MEMS","ItemMap","ItemGPS","The_Programmer_Iphone","ItemCompass","ItemWatch"};
 
 	nakedUniform="U_BasicBody";
+	uniformClass="U_FACTIONADAC_adac_Uniform_men_01";
 };

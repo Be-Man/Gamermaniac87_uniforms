@@ -35,7 +35,7 @@ class CfgFactionClasses {
     };
     class FACTION_ADMIN_gamermaniac {
         displayName = "Admin";
-        side = "";
+        side[] = {3, 2, 1, 0};
         flag = "";
         icon = "";
         priority = 4;
@@ -44,12 +44,12 @@ class CfgFactionClasses {
 
 class CfgVehicles {
 
-	#include "men_autogen_civ.hpp"
+	//#include "men_autogen_civ.hpp"
 	#include "men_autogen_adac.hpp"
 	#include "men_autogen_cop.hpp"
 	#include "men_autogen_med.hpp"
 	#include "men_autogen_admin.hpp"
-	#include "women_autogen_civ.hpp"
+	//#include "women_autogen_civ.hpp"
 	#include "women_autogen_adac.hpp"
 	#include "women_autogen_cop.hpp"
 	#include "women_autogen_med.hpp"
@@ -58,12 +58,12 @@ class CfgVehicles {
 
 class cfgWeapons {
 
-	#include "men_weapon_civ.hpp"
+	//#include "men_weapon_civ.hpp"
 	#include "men_weapon_adac.hpp"
 	#include "men_weapon_cop.hpp"
 	#include "men_weapon_med.hpp"
 	#include "men_weapon_admin.hpp"
-	#include "women_weapon_civ.hpp"
+	//#include "women_weapon_civ.hpp"
 	#include "women_weapon_adac.hpp"
 	#include "women_weapon_cop.hpp"
 	#include "women_weapon_med.hpp"

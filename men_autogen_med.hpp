@@ -2,7 +2,7 @@ class B_Soldier_base_F;
 
 class O_FACTIONMEDICgamermaniac_Medical_Men_Uniform_01 : B_Soldier_base_F {
 	author = "Kane Messias";
-	scope = 1;
+	scope = 2;
 	displayName = "Medical Men Uniform";
 	model="\EF\data\KJKT_EMS.p3d";
 	hiddenSelections[] =	{"camo1"};
@@ -24,4 +24,5 @@ class O_FACTIONMEDICgamermaniac_Medical_Men_Uniform_01 : B_Soldier_base_F {
 	respawnlinkedItems[] = {"EF_BLT_MEMS","ItemMap","ItemGPS","The_Programmer_Iphone","ItemCompass","ItemWatch"};
 
 	nakedUniform="U_BasicBody";
+	uniformClass="U_FACTIONMEDIC_Medic_Uniform_men_01";
 };

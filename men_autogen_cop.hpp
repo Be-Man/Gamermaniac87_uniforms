@@ -2,7 +2,7 @@ class B_soldier_F;
 
 class B_FACTIONPOLICEgamermaniac_Police_Men_Uniform_LvL1_01 : B_soldier_F {
 	author = "Kane Messias";
-	scope = 1;
+	scope = 2;
 	displayName = "Police Men Uniform LvL1";
 	model = "\A3\Characters_F\Civil\c_poloshirtpants.p3d";
 	hiddenSelections[] = {"camo"};
@@ -24,11 +24,12 @@ class B_FACTIONPOLICEgamermaniac_Police_Men_Uniform_LvL1_01 : B_soldier_F {
 	respawnlinkedItems[] = {"police_belt_Without_pistol","ItemMap","ItemGPS","The_Programmer_Iphone","ItemCompass"};
 
 	nakedUniform="U_BasicBody";
+	uniformClass="U_FACTIONPOLICE_Police_Uniform_LvL1_men_01";
 };
 
 class B_FACTIONPOLICEgamermaniac_Police_Men_Uniform_LvL2_01 : B_soldier_F {
 	author = "Kane Messias";
-	scope = 1;
+	scope = 2;
 	displayName = "Police Men Uniform LvL2";
 	model = "\A3\Characters_F\Civil\c_poloshirtpants.p3d";
 	hiddenSelections[] = {"camo"};
@@ -50,11 +51,12 @@ class B_FACTIONPOLICEgamermaniac_Police_Men_Uniform_LvL2_01 : B_soldier_F {
 	respawnlinkedItems[] = {"police_belt_Without_pistol","ItemMap","ItemGPS","The_Programmer_Iphone","ItemCompass"};
 
 	nakedUniform="U_BasicBody";
+	uniformClass="U_FACTIONPOLICE_Police_Uniform_LvL2_men_01";
 };
 
 class B_FACTIONPOLICEgamermaniac_Police_Men_Uniform_LvL3_01 : B_soldier_F {
 	author = "Kane Messias";
-	scope = 1;
+	scope = 2;
 	displayName = "Police Men Uniform LvL3";
 	model = "\A3\Characters_F\Civil\c_poloshirtpants.p3d";
 	hiddenSelections[] = {"camo"};
@@ -76,11 +78,12 @@ class B_FACTIONPOLICEgamermaniac_Police_Men_Uniform_LvL3_01 : B_soldier_F {
 	respawnlinkedItems[] = {"police_belt_Without_pistol","ItemMap","ItemGPS","The_Programmer_Iphone","ItemCompass"};
 
 	nakedUniform="U_BasicBody";
+	uniformClass="U_FACTIONPOLICE_Police_Uniform_LvL3_men_01";
 };
 
 class B_FACTIONPOLICEgamermaniac_Police_Men_Uniform_LvL4_01 : B_soldier_F {
 	author = "Kane Messias";
-	scope = 1;
+	scope = 2;
 	displayName = "Police Men Uniform LvL4";
 	model = "\A3\Characters_F\Civil\c_poloshirtpants.p3d";
 	hiddenSelections[] = {"camo"};
@@ -102,11 +105,12 @@ class B_FACTIONPOLICEgamermaniac_Police_Men_Uniform_LvL4_01 : B_soldier_F {
 	respawnlinkedItems[] = {"police_belt_Without_pistol","ItemMap","ItemGPS","The_Programmer_Iphone","ItemCompass"};
 
 	nakedUniform="U_BasicBody";
+	uniformClass="U_FACTIONPOLICE_Police_Uniform_LvL4_men_01";
 };
 
 class B_FACTIONPOLICEgamermaniac_Police_Men_Uniform_LvL5_01 : B_soldier_F {
 	author = "Kane Messias";
-	scope = 1;
+	scope = 2;
 	displayName = "Police Men Uniform LvL5";
 	model = "\A3\Characters_F\Civil\c_poloshirtpants.p3d";
 	hiddenSelections[] = {"camo"};
@@ -128,11 +132,12 @@ class B_FACTIONPOLICEgamermaniac_Police_Men_Uniform_LvL5_01 : B_soldier_F {
 	respawnlinkedItems[] = {"police_belt_Without_pistol","ItemMap","ItemGPS","The_Programmer_Iphone","ItemCompass"};
 
 	nakedUniform="U_BasicBody";
+	uniformClass="U_FACTIONPOLICE_Police_Uniform_LvL5_men_01";
 };
 
 class B_FACTIONPOLICEgamermaniac_Police_Men_Uniform_LvL6_01 : B_soldier_F {
 	author = "Kane Messias";
-	scope = 1;
+	scope = 2;
 	displayName = "Police Men Uniform LvL6";
 	model = "\A3\Characters_F\Civil\c_poloshirtpants.p3d";
 	hiddenSelections[] = {"camo"};
@@ -154,4 +159,5 @@ class B_FACTIONPOLICEgamermaniac_Police_Men_Uniform_LvL6_01 : B_soldier_F {
 	respawnlinkedItems[] = {"police_belt_Without_pistol","ItemMap","ItemGPS","The_Programmer_Iphone","ItemCompass"};
 
 	nakedUniform="U_BasicBody";
+	uniformClass="U_FACTIONPOLICE_Police_Uniform_LvL6_men_01";
 };

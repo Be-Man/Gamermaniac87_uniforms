@@ -1,8 +1,8 @@
-class B_soldier_F;
+class O_G_Soldier_F;
 
-class I_FACTIONADACgamermaniac_ADAC_Uniform_women_01: B_soldier_F {
+class I_FACTIONADACgamermaniac_ADAC_Uniform_women_01: O_G_Soldier_F {
 	author = "Kane Messias";
-	scope = 1;
+	scope = 2;
 	displayName = "ADAC Woman Uniform";
 	model="\women\Uniform.p3d";
 	hiddenSelections[] = {"camo"};
@@ -24,4 +24,5 @@ class I_FACTIONADACgamermaniac_ADAC_Uniform_women_01: B_soldier_F {
 	respawnlinkedItems[] = {"EF_BLT_MEMS","ItemMap","ItemGPS","The_Programmer_Iphone","ItemCompass","ItemWatch"};
 
 	nakedUniform="max_femaleBasicBody";
+	uniformClass="U_FACTIONADAC_adac_Uniform_women_01";
 };

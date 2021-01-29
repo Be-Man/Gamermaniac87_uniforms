@@ -2,7 +2,7 @@ class B_soldier_F;
 
 class B_FACTIONPOLICEgamermaniac_Police_Women_Uniform_LvL1_01 : B_soldier_F {
 	author = "Kane Messias";
-	scope = 1;
+	scope = 2;
 	displayName = "Police Women Uniform LvL1";
 	model = "\EF\data\FEM4_7.p3d";
 	hiddenSelections[] = {
@@ -30,11 +30,12 @@ class B_FACTIONPOLICEgamermaniac_Police_Women_Uniform_LvL1_01 : B_soldier_F {
 	respawnlinkedItems[] = {"police_belt_Without_pistol","ItemMap","ItemGPS","The_Programmer_Iphone","ItemCompass"};
 
 	nakedUniform="max_femaleBasicBody";
+	uniformClass="U_FACTIONPOLICE_Police_Uniform_LvL1_women_01";
 };
 
 class B_FACTIONPOLICEgamermaniac_Police_Women_Uniform_LvL2_01 : B_soldier_F {
 	author = "Kane Messias";
-	scope = 1;
+	scope = 2;
 	displayName = "Police Women Uniform LvL2";
 	model = "\EF\data\FEM4_7.p3d";
 	hiddenSelections[] = {
@@ -62,11 +63,12 @@ class B_FACTIONPOLICEgamermaniac_Police_Women_Uniform_LvL2_01 : B_soldier_F {
 	respawnlinkedItems[] = {"police_belt_Without_pistol","ItemMap","ItemGPS","The_Programmer_Iphone","ItemCompass"};
 
 	nakedUniform="max_femaleBasicBody";
+	uniformClass="U_FACTIONPOLICE_Police_Uniform_LvL2_women_01";
 };
 
 class B_FACTIONPOLICEgamermaniac_Police_Women_Uniform_LvL3_01 : B_soldier_F {
 	author = "Kane Messias";
-	scope = 1;
+	scope = 2;
 	displayName = "Police Women Uniform LvL3";
 	model = "\EF\data\FEM4_7.p3d";
 	hiddenSelections[] = {
@@ -94,11 +96,12 @@ class B_FACTIONPOLICEgamermaniac_Police_Women_Uniform_LvL3_01 : B_soldier_F {
 	respawnlinkedItems[] = {"police_belt_Without_pistol","ItemMap","ItemGPS","The_Programmer_Iphone","ItemCompass"};
 
 	nakedUniform="max_femaleBasicBody";
+	uniformClass="U_FACTIONPOLICE_Police_Uniform_LvL3_women_01";
 };
 
 class B_FACTIONPOLICEgamermaniac_Police_Women_Uniform_LvL4_01 : B_soldier_F {
 	author = "Kane Messias";
-	scope = 1;
+	scope = 2;
 	displayName = "Police Women Uniform LvL4";
 	model = "\EF\data\FEM4_7.p3d";
 	hiddenSelections[] = {
@@ -126,11 +129,12 @@ class B_FACTIONPOLICEgamermaniac_Police_Women_Uniform_LvL4_01 : B_soldier_F {
 	respawnlinkedItems[] = {"police_belt_Without_pistol","ItemMap","ItemGPS","The_Programmer_Iphone","ItemCompass"};
 
 	nakedUniform="max_femaleBasicBody";
+	uniformClass="U_FACTIONPOLICE_Police_Uniform_LvL4_women_01";
 };
 
 class B_FACTIONPOLICEgamermaniac_Police_Women_Uniform_LvL5_01 : B_soldier_F {
 	author = "Kane Messias";
-	scope = 1;
+	scope = 2;
 	displayName = "Police Women Uniform LvL5";
 	model = "\EF\data\FEM4_7.p3d";
 	hiddenSelections[] = {
@@ -158,11 +162,12 @@ class B_FACTIONPOLICEgamermaniac_Police_Women_Uniform_LvL5_01 : B_soldier_F {
 	respawnlinkedItems[] = {"police_belt_Without_pistol","ItemMap","ItemGPS","The_Programmer_Iphone","ItemCompass"};
 
 	nakedUniform="max_femaleBasicBody";
+	uniformClass="U_FACTIONPOLICE_Police_Uniform_LvL5_women_01";
 };
 
 class B_FACTIONPOLICEgamermaniac_Police_Women_Uniform_LvL6_01 : B_soldier_F {
 	author = "Kane Messias";
-	scope = 1;
+	scope = 2;
 	displayName = "Police Women Uniform LvL6";
 	model = "\EF\data\FEM4_7.p3d";
 	hiddenSelections[] = {
@@ -190,4 +195,5 @@ class B_FACTIONPOLICEgamermaniac_Police_Women_Uniform_LvL6_01 : B_soldier_F {
 	respawnlinkedItems[] = {"police_belt_Without_pistol","ItemMap","ItemGPS","The_Programmer_Iphone","ItemCompass"};
 
 	nakedUniform="max_femaleBasicBody";
+	uniformClass="U_FACTIONPOLICE_Police_Uniform_LvL6_women_01";
 };
