@@ -3,7 +3,7 @@ class vest_base;
 class VestItem;
 class V_HarnessO_brn;
 
-class ADMIN_Vest_men_01: V_HarnessO_brn
+class ADMIN_Vest_01: V_HarnessO_brn
 {
 	scope=2;
 	displayName="Admin Weste";
@@ -75,6 +75,7 @@ class ADMIN_Vest_men_01: V_HarnessO_brn
 			class Body
 			{
 				hitpointName="HitBody";
+				armor=100;
 				passThrough=0.1;
 			};
 			class Pelvis
