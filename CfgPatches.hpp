@@ -23,6 +23,13 @@ class CfgPatches {
             "B_FACTIONPOLICEgamermaniac_Police_Women_Uniform_LvL4_01",
             "B_FACTIONPOLICEgamermaniac_Police_Women_Uniform_LvL5_01",
             "B_FACTIONPOLICEgamermaniac_Police_Women_Uniform_LvL6_01",
+            "B_FACTIONPOLICEgamermaniac_Police_Women_Uniform_LvL7_01",
+            "B_FACTIONPOLICEgamermaniac_Police_Women_Uniform_LvL8_01",
+            "B_FACTIONPOLICEgamermaniac_Police_Women_Uniform_LvL9_01",
+            "B_FACTIONPOLICEgamermaniac_Police_Women_Uniform_LvL10_01",
+            "B_FACTIONPOLICEgamermaniac_Police_Women_Uniform_LvL11_01",
+            "B_FACTIONPOLICEgamermaniac_Police_Women_Uniform_LvL12_01",
+            "B_FACTIONPOLICEgamermaniac_Police_Women_Uniform_LvL13_01",
 		};
         requiredVersion = "1.62";
         requiredAddons[] = {
