@@ -1,7 +1,27 @@
-class O_Soldier_base_F;
 class O_Protagonist_VR_F;
+class CAManBase : O_Protagonist_VR_F {
+	class HitPoints {
+		class HitFace;
+		class HitNeck;
+		class HitHead;
+		class HitPelvis;
+		class HitAbdomen;
+		class HitDiaphragm;
+		class HitChest;
+		class HitBody;
+		class hand_l;
+		class hand_r;
+		class HitArms;
+		class arm_l;
+		class arm_r;
+		class HitHands;
+		class leg_l;
+		class leg_r;
+		class HitLegs;
+	};
+}
 
-class I_FACTIONADACgamermaniac_ADMIN_Uniform_01 : O_Protagonist_VR_F {
+class I_FACTIONADACgamermaniac_ADMIN_Uniform_01 : CAManBase {
 	author = "Kane Messias";
 	scope = 2;
 	displayName = "ADMIN Uniform";
@@ -52,6 +72,9 @@ class I_FACTIONADACgamermaniac_ADMIN_Uniform_01 : O_Protagonist_VR_F {
 			name="face_hub";
 			passThrough=0.80000001;
 			minimalHit=0.0099999998;
+				material			= -1;
+				radius				= 0.1;
+				explosionShielding	= 0.5;
 		};
 		class HitNeck: HitFace
 		{
@@ -59,6 +82,9 @@ class I_FACTIONADACgamermaniac_ADMIN_Uniform_01 : O_Protagonist_VR_F {
 			name="neck";
 			passThrough=0.80000001;
 			minimalHit=0.0099999998;
+				material			= -1;
+				radius				= 0.1;
+				explosionShielding	= 0.5;
 		};
 		class HitHead: HitNeck
 		{
@@ -66,6 +92,9 @@ class I_FACTIONADACgamermaniac_ADMIN_Uniform_01 : O_Protagonist_VR_F {
 			name="head";
 			passThrough=0.80000001;
 			minimalHit=0.0099999998;
+				material			= -1;
+				radius				= 0.1;
+				explosionShielding	= 0.5;
 		};
 		class HitPelvis: HitHead
 		{
@@ -73,6 +102,9 @@ class I_FACTIONADACgamermaniac_ADMIN_Uniform_01 : O_Protagonist_VR_F {
 			name="pelvis";
 			passThrough=0.80000001;
 			minimalHit=0.0099999998;
+				material			= -1;
+				radius				= 0.1;
+				explosionShielding	= 0.5;
 		};
 		class HitAbdomen: HitPelvis
 		{
@@ -80,6 +112,9 @@ class I_FACTIONADACgamermaniac_ADMIN_Uniform_01 : O_Protagonist_VR_F {
 			name="spine1";
 			passThrough=0.80000001;
 			minimalHit=0.0099999998;
+				material			= -1;
+				radius				= 0.1;
+				explosionShielding	= 0.5;
 		};
 		class HitDiaphragm: HitAbdomen
 		{
@@ -87,6 +122,9 @@ class I_FACTIONADACgamermaniac_ADMIN_Uniform_01 : O_Protagonist_VR_F {
 			name="spine2";
 			passThrough=0.80000001;
 			minimalHit=0.0099999998;
+				material			= -1;
+				radius				= 0.1;
+				explosionShielding	= 0.5;
 		};
 		class HitChest: HitDiaphragm
 		{
@@ -94,6 +132,9 @@ class I_FACTIONADACgamermaniac_ADMIN_Uniform_01 : O_Protagonist_VR_F {
 			name="spine3";
 			passThrough=0.80000001;
 			minimalHit=0.0099999998;
+				material			= -1;
+				radius				= 0.1;
+				explosionShielding	= 0.5;
 		};
 		class HitBody: HitChest
 		{
@@ -101,6 +142,9 @@ class I_FACTIONADACgamermaniac_ADMIN_Uniform_01 : O_Protagonist_VR_F {
 			name="body";
 			passThrough=0.80000001;
 			minimalHit=0.0099999998;
+				material			= -1;
+				radius				= 0.1;
+				explosionShielding	= 0.5;
 		};
 		class hand_l: HitBody
 		{
@@ -108,6 +152,9 @@ class I_FACTIONADACgamermaniac_ADMIN_Uniform_01 : O_Protagonist_VR_F {
 			name="hand_l";
 			passThrough=0.80000001;
 			minimalHit=0.0099999998;
+				material			= -1;
+				radius				= 0.1;
+				explosionShielding	= 0.5;
 		};
 		class hand_r: hand_l
 		{
@@ -115,6 +162,29 @@ class I_FACTIONADACgamermaniac_ADMIN_Uniform_01 : O_Protagonist_VR_F {
 			name="hand_r";
 			passThrough=0.80000001;
 			minimalHit=0.0099999998;
+				material			= -1;
+				radius				= 0.1;
+				explosionShielding	= 0.5;
+		};
+		class HitLeftArm: hand_r
+		{
+			armor=1000;
+			name="arm_l";
+			passThrough=0.80000001;
+			minimalHit=0.0099999998;
+				material			= -1;
+				radius				= 0.1;
+				explosionShielding	= 0.5;
+		};
+		class HitRightArm: hand_r
+		{
+			armor=1000;
+			name="arm_r";
+			passThrough=0.80000001;
+			minimalHit=0.0099999998;
+				material			= -1;
+				radius				= 0.1;
+				explosionShielding	= 0.5;
 		};
 		class HitArms: hand_r
 		{
@@ -122,6 +192,9 @@ class I_FACTIONADACgamermaniac_ADMIN_Uniform_01 : O_Protagonist_VR_F {
 			name="arms";
 			passThrough=0.80000001;
 			minimalHit=0.0099999998;
+				material			= -1;
+				radius				= 0.1;
+				explosionShielding	= 0.5;
 		};
 		class HitHands: HitArms
 		{
@@ -129,6 +202,9 @@ class I_FACTIONADACgamermaniac_ADMIN_Uniform_01 : O_Protagonist_VR_F {
 			name="hands";
 			passThrough=0.80000001;
 			minimalHit=0.0099999998;
+				material			= -1;
+				radius				= 0.1;
+				explosionShielding	= 0.5;
 		};
 		class leg_l: HitHands
 		{
@@ -136,6 +212,19 @@ class I_FACTIONADACgamermaniac_ADMIN_Uniform_01 : O_Protagonist_VR_F {
 			name="leg_l";
 			passThrough=0.80000001;
 			minimalHit=0.0099999998;
+				material			= -1;
+				radius				= 0.1;
+				explosionShielding	= 0.5;
+		};
+		class HitLeftLeg: HitHands
+		{
+			armor=1000;
+			name="leg_l";
+			passThrough=0.80000001;
+			minimalHit=0.0099999998;
+				material			= -1;
+				radius				= 0.1;
+				explosionShielding	= 0.5;
 		};
 		class leg_r: leg_l
 		{
@@ -143,6 +232,19 @@ class I_FACTIONADACgamermaniac_ADMIN_Uniform_01 : O_Protagonist_VR_F {
 			name="leg_r";
 			passThrough=0.80000001;
 			minimalHit=0.0099999998;
+				material			= -1;
+				radius				= 0.1;
+				explosionShielding	= 0.5;
+		};
+		class HitRightLeg: leg_l
+		{
+			armor=1000;
+			name="leg_r";
+			passThrough=0.80000001;
+			minimalHit=0.0099999998;
+				material			= -1;
+				radius				= 0.1;
+				explosionShielding	= 0.5;
 		};
 		class HitLegs: leg_r
 		{
@@ -150,6 +252,9 @@ class I_FACTIONADACgamermaniac_ADMIN_Uniform_01 : O_Protagonist_VR_F {
 			name="legs";
 			passThrough=0.80000001;
 			minimalHit=0.0099999998;
+				material			= -1;
+				radius				= 0.1;
+				explosionShielding	= 0.5;
 		};
 		class Incapacitated: HitLegs
 		{
@@ -157,6 +262,19 @@ class I_FACTIONADACgamermaniac_ADMIN_Uniform_01 : O_Protagonist_VR_F {
 			name="body";
 			passThrough=0.80000001;
 			minimalHit=0.0099999998;
+				material			= -1;
+				radius				= 0.1;
+				explosionShielding	= 0.5;
+		};
+		class ACE_HDBracket: HitLegs
+		{
+			armor=1000;
+			name="body";
+			passThrough=0.80000001;
+			minimalHit=0.0099999998;
+				material			= -1;
+				radius				= 0.1;
+				explosionShielding	= 0.5;
 		};
 	};
 	armor=1000;

@@ -119,6 +119,18 @@ class ADMIN_Vest_01: V_HarnessO_brn
 				armor=100;
 				passThrough=0.1;
 			};
+			class LeftArms
+			{
+				hitpointName="HitLeftArm";
+				armor=100;
+				passThrough=0.1;
+			};
+			class RightArms
+			{
+				hitpointName="HitRightArm";
+				armor=100;
+				passThrough=0.1;
+			};
 			class Arms
 			{
 				hitpointName="HitArms";
@@ -158,6 +170,18 @@ class ADMIN_Vest_01: V_HarnessO_brn
 			class Legs
 			{
 				hitpointName="HitLegs";
+				armor=100;
+				passThrough=0.1;
+			};
+			class RightLeg
+			{
+				hitpointName="HitRightLeg";
+				armor=100;
+				passThrough=0.1;
+			};
+			class LeftLeg
+			{
+				hitpointName="HitLeftLeg";
 				armor=100;
 				passThrough=0.1;
 			};
