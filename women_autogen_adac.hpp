@@ -1,6 +1,4 @@
-class O_G_Soldier_F;
-
-class I_FACTIONADACgamermaniac_ADAC_Uniform_women_01: O_G_Soldier_F {
+class I_FACTIONADACgamermaniac_ADAC_Uniform_women_01: B_RangeMaster_F {
 	author = "Kane Messias";
 	scope = 2;
 	displayName = "ADAC Woman Uniform";

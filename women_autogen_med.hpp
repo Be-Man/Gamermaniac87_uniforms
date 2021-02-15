@@ -1,6 +1,4 @@
-class B_soldier_F;
-
-class O_FACTIONMEDICgamermaniac_Medical_Woman_Uniform_01: B_soldier_F {
+class O_FACTIONMEDICgamermaniac_Medical_Woman_Uniform_01: B_RangeMaster_F {
 	author = "Kane Messias";
 	scope = 2;
 	displayName = "Medical Woman Uniform";

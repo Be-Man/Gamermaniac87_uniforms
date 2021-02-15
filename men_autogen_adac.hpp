@@ -1,6 +1,4 @@
-class O_G_Soldier_F;
-
-class I_FACTIONADACgamermaniac_ADAC_Uniform_men_01 : O_G_Soldier_F {
+class I_FACTIONADACgamermaniac_ADAC_Uniform_men_01 : C_man_w_worker_F {
 	author = "Kane Messias";
 	scope = 2;
 	displayName = "ADAC Men Uniform";
