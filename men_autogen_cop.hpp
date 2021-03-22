@@ -11,10 +11,10 @@ class B_FACTIONPOLICEgamermaniac_Police_Men_Uniform_LvL0_01 : B_RangeMaster_F
 	
 	
 	backpack = "tf_anprc155_coyote";
-	weapons[] = {"ASN_Taser_F"};
-	respawnWeapons[] = {"ASN_Taser_F"};
-	magazines[] = {"1Rnd_ASN_Taser_F","1Rnd_ASN_Taser_F"};
-	respawnMagazines[] = {"1Rnd_ASN_Taser_F","1Rnd_ASN_Taser_F"};
+	weapons[] = {"DDOPP_X26"};
+	respawnWeapons[] = {"DDOPP_X26"};
+	magazines[] = {"DDOPP_6Rnd_X26","DDOPP_6Rnd_X26"};
+	respawnMagazines[] = {"DDOPP_6Rnd_X26","DDOPP_6Rnd_X26"};
 	linkedItems[] = {"police_belt_Without_pistol","ItemMap","ItemGPS","The_Programmer_Iphone","ItemCompass"};
 	respawnlinkedItems[] = {"police_belt_Without_pistol","ItemMap","ItemGPS","The_Programmer_Iphone","ItemCompass"};
 };
@@ -49,6 +49,9 @@ class B_FACTIONPOLICEgamermaniac_Police_Men_Uniform_LvL4_01 : B_FACTIONPOLICEgam
 	displayName = "Police Men Uniform LvL4 Sergeant";
 	HiddenSelectionsTextures[] = {"\Gamermaniac87_uniforms\textures\Skins\Police_Men_Lv4_Sergeant"};       //Uniform textures
 	uniformClass="U_FACTIONPOLICE_Police_Uniform_LvL4_men_01";
+	
+	weapons[] = {"DDOPP_X26_b"};
+	respawnWeapons[] = {"DDOPP_X26_b"};
 };
 
 

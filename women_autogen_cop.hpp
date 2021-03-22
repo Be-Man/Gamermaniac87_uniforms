@@ -16,13 +16,10 @@ class B_FACTIONPOLICEgamermaniac_Police_woman_Uniform_LvL0_01 : B_RangeMaster_F 
 	faction = "FACTION_POLICE_gamermaniac";
 	
 	backpack = "tf_anprc155_coyote";
-	
-	weapons[] = {"ASN_Taser_F"};
-	respawnWeapons[] = {"ASN_Taser_F"};
-	
-	magazines[] = {"1Rnd_ASN_Taser_F","1Rnd_ASN_Taser_F"};
-	respawnMagazines[] = {"1Rnd_ASN_Taser_F","1Rnd_ASN_Taser_F"};
-
+	weapons[] = {"DDOPP_X26"};
+	respawnWeapons[] = {"DDOPP_X26"};
+	magazines[] = {"DDOPP_6Rnd_X26","DDOPP_6Rnd_X26"};
+	respawnMagazines[] = {"DDOPP_6Rnd_X26","DDOPP_6Rnd_X26"};
 	linkedItems[] = {"police_belt_Without_pistol","ItemMap","ItemGPS","The_Programmer_Iphone","ItemCompass"};
 	respawnlinkedItems[] = {"police_belt_Without_pistol","ItemMap","ItemGPS","The_Programmer_Iphone","ItemCompass"};
 
@@ -64,6 +61,8 @@ class B_FACTIONPOLICEgamermaniac_Police_woman_Uniform_LvL4_01 : B_FACTIONPOLICEg
 		"\Gamermaniac87_uniforms\textures\Skins\Police_Woman_Lv4_Sergeant.paa"
 	};    //Uniform textures
 	uniformClass="U_FACTIONPOLICE_Police_Uniform_LvL4_woman_01";
+	weapons[] = {"DDOPP_X26_b"};
+	respawnWeapons[] = {"DDOPP_X26_b"};
 };
 
 class B_FACTIONPOLICEgamermaniac_Police_woman_Uniform_LvL5_01 : B_FACTIONPOLICEgamermaniac_Police_woman_Uniform_LvL0_01 {
